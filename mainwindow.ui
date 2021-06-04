@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>QLabel {
+	color: white;
+	font-size: 12px;
+	font-family: &quot;Courier Prime Code&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>C:/Users/muhra/Downloads/assets - dashboard/assets/speedo/background/bg.svg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="time_label">
+    <property name="geometry">
+     <rect>
+      <x>283</x>
+      <y>36</y>
+      <width>66</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 23px;
+	font-weight: 800;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	line-height: 0;
+}
+
+QLabel:hover{
+	color: red;
+}</string>
+    </property>
+    <property name="text">
+     <string>00:00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>130</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/assets/battery/svg/Asset 67.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="speed_label">
+    <property name="geometry">
+     <rect>
+      <x>374</x>
+      <y>190</y>
+      <width>46</width>
+      <height>52</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: &quot;Digital Dismay&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>53</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>355</x>
+      <y>41</y>
+      <width>24</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 12px;
+	font-family: &quot;Courier Prime Code&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>ODO</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>41</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 12px;
+	font-family: &quot;Courier Prime Code&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>METER</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_pic">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>330</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="odometer_label">
+    <property name="geometry">
+     <rect>
+      <x>441</x>
+      <y>42</y>
+      <width>33</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #8BC1C7;
+	font-size: 12px;
+	font-family: &quot;Sary Soft&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>96.123</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>484</x>
+      <y>42</y>
+      <width>17</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #8BC1C7;
+	font-size: 12px;
+	font-family: &quot;Sary Soft&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>KM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mainbatteyr_label">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>150</y>
+      <width>44</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>210</y>
+      <width>133</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>24 V  DC - 100°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>400</y>
+      <width>133</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>24 V  DC - 100°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="secondbattery__label">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>340</y>
+      <width>44</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>100%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>320</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/assets/battery/svg/Asset 68.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="motortemp_label">
+    <property name="geometry">
+     <rect>
+      <x>106</x>
+      <y>177</y>
+      <width>42</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: &quot;Sary Soft&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>70°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="controller_labe">
+    <property name="geometry">
+     <rect>
+      <x>102</x>
+      <y>274</y>
+      <width>42</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: &quot;Sary Soft&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>53°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>392</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/assets/icon/svg/Asset 4.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status_label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>398</y>
+      <width>273</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Courier Prime Code&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>EVERYTHING LOOKS GOOD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>313</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: #62AF30
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>293</y>
+      <width>251</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/assets/tacho/SVG/theTacho.svg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

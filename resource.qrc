@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/background/.DS_Store</file>
+        <file>assets/background/bg.svg</file>
+        <file>assets/battery/png/Asset 67.png</file>
+        <file>assets/battery/png/Asset 68.png</file>
+        <file>assets/battery/png/Asset 69.png</file>
+        <file>assets/battery/png/Asset 70.png</file>
+        <file>assets/battery/png/Asset 71.png</file>
+        <file>assets/battery/svg/Asset 67.svg</file>
+        <file>assets/battery/svg/Asset 68.svg</file>
+        <file>assets/battery/svg/Asset 69.svg</file>
+        <file>assets/battery/svg/Asset 70.svg</file>
+        <file>assets/battery/svg/Asset 71.svg</file>
+        <file>assets/battery/.DS_Store</file>
+        <file>assets/fonts/Courier Prime Code Italic.ttf</file>
+        <file>assets/fonts/Courier Prime Code.ttf</file>
+        <file>assets/fonts/Digital Dismay.ttf.otf</file>
+        <file>assets/fonts/Sary Soft ExtraLight.otf</file>
+        <file>assets/fonts/Sary Soft Light.otf</file>
+        <file>assets/fonts/Sary Soft SemiBlod.otf</file>
+        <file>assets/fonts/Sary Soft Thin.otf</file>
+        <file>assets/fonts/Sary Soft.otf</file>
+        <file>assets/icon/png/Asset 4.png</file>
+        <file>assets/icon/png/Asset 5.png</file>
+        <file>assets/icon/svg/Asset 4.svg</file>
+        <file>assets/icon/svg/Asset 5.svg</file>
+        <file>assets/icon/.DS_Store</file>
+        <file>assets/tacho/png/RPM Background.png</file>
+        <file>assets/tacho/png/RPM Combine.png</file>
+        <file>assets/tacho/png/RPM Number.png</file>
+        <file>assets/tacho/SVG/.DS_Store</file>
+        <file>assets/tacho/SVG/theTacho.svg</file>
+        <file>assets/tacho/.DS_Store</file>
+        <file>assets/.DS_Store</file>
+    </qresource>
+</RCC>
