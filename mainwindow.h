@@ -7,6 +7,7 @@
 #include <QSerialPortInfo>
 #include <QSerialPort>
 #include <QDebug>
+#include <QLabel>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow;  }
@@ -21,7 +22,11 @@ public:
     ~MainWindow();
 
 private slots:
-    void load_backgroud();
+    void loadBackgroud();
+    void updateTime(QLabel *label);
+    void updateTachoMeter(QString value, int max);
+    void updateBatteryIcon(QString percentage, QLabel *label);
+    void updateStatusInformation(QString motorTemp, QString controllerTemp);
 
 public slots:
     void onReadData();

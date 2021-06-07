@@ -32,8 +32,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>60</x>
+      <y>20</y>
       <width>800</width>
       <height>480</height>
      </rect>
@@ -80,7 +80,7 @@ QLabel:hover{
      <string>00:00</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
+   <widget class="QLabel" name="mainbattery_icon">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -102,22 +102,25 @@ QLabel:hover{
    <widget class="QLabel" name="speed_label">
     <property name="geometry">
      <rect>
-      <x>374</x>
-      <y>190</y>
-      <width>46</width>
-      <height>52</height>
+      <x>321</x>
+      <y>183</y>
+      <width>155</width>
+      <height>64</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel {
 	color: white;
-	font-size: 50px;
+	font-size: 40pt;
 	font-weight: 600;
 	font-family: &quot;Digital Dismay&quot;;
 }</string>
     </property>
     <property name="text">
      <string>53</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -224,7 +227,7 @@ QLabel:hover{
      <string>KM</string>
     </property>
    </widget>
-   <widget class="QLabel" name="mainbatteyr_label">
+   <widget class="QLabel" name="mainbattery_label">
     <property name="geometry">
      <rect>
       <x>700</x>
@@ -246,12 +249,12 @@ QLabel:hover{
      <string>100%</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
+   <widget class="QLabel" name="mainbatteryvoltage_label">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>210</y>
-      <width>133</width>
+      <x>586</x>
+      <y>209</y>
+      <width>64</width>
       <height>25</height>
      </rect>
     </property>
@@ -265,32 +268,10 @@ QLabel:hover{
 }</string>
     </property>
     <property name="text">
-     <string>24 V  DC - 100°C</string>
+     <string>24 V DC</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_11">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>400</y>
-      <width>133</width>
-      <height>25</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLabel {
-	color: #FFF;
-	font-size: 20px;
-	font-family: &quot;Sary Soft SemiBold&quot;;
-	font-weight: 600;
-	line-height: 0;
-}</string>
-    </property>
-    <property name="text">
-     <string>24 V  DC - 100°C</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="secondbattery__label">
+   <widget class="QLabel" name="secondbattery_label">
     <property name="geometry">
      <rect>
       <x>700</x>
@@ -312,7 +293,7 @@ QLabel:hover{
      <string>100%</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_13">
+   <widget class="QLabel" name="secondbattery_icon">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -336,7 +317,7 @@ QLabel:hover{
      <rect>
       <x>106</x>
       <y>177</y>
-      <width>42</width>
+      <width>51</width>
       <height>25</height>
      </rect>
     </property>
@@ -345,19 +326,19 @@ QLabel:hover{
 	color: white;
 	font-size: 20px;
 	font-weight: 600;
-	font-family: &quot;Sary Soft&quot;;
+	font-family: &quot;Sary Soft SemiBold&quot;;
 }</string>
     </property>
     <property name="text">
      <string>70°C</string>
     </property>
    </widget>
-   <widget class="QLabel" name="controller_labe">
+   <widget class="QLabel" name="controller_label">
     <property name="geometry">
      <rect>
       <x>102</x>
       <y>274</y>
-      <width>42</width>
+      <width>51</width>
       <height>25</height>
      </rect>
     </property>
@@ -366,14 +347,14 @@ QLabel:hover{
 	color: white;
 	font-size: 20px;
 	font-weight: 600;
-	font-family: &quot;Sary Soft&quot;;
+	font-family: &quot;Sary Soft SemiBold&quot;;
 }</string>
     </property>
     <property name="text">
      <string>53°C</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_16">
+   <widget class="QLabel" name="status_icon">
     <property name="geometry">
      <rect>
       <x>66</x>
@@ -397,7 +378,7 @@ QLabel:hover{
      <rect>
       <x>150</x>
       <y>398</y>
-      <width>273</width>
+      <width>351</width>
       <height>26</height>
      </rect>
     </property>
@@ -414,7 +395,7 @@ QLabel:hover{
      <string>EVERYTHING LOOKS GOOD</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_18">
+   <widget class="QLabel" name="tachometer_label">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -451,6 +432,169 @@ QLabel:hover{
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>800</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>0</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resource.qrc">:/assets/background/bg.svg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dash_label">
+    <property name="geometry">
+     <rect>
+      <x>656</x>
+      <y>209</y>
+      <width>16</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mainbatterytemp_label">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>209</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string> 100°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>401</y>
+      <width>16</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>401</y>
+      <width>64</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string>24 V DC</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="secondbatterytemp_label">
+    <property name="geometry">
+     <rect>
+      <x>674</x>
+      <y>401</y>
+      <width>51</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: #FFF;
+	font-size: 20px;
+	font-family: &quot;Sary Soft SemiBold&quot;;
+	font-weight: 600;
+	line-height: 0;
+}</string>
+    </property>
+    <property name="text">
+     <string> 100°C</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>time_label</zorder>
+   <zorder>mainbattery_icon</zorder>
+   <zorder>speed_label</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_pic</zorder>
+   <zorder>odometer_label</zorder>
+   <zorder>label_8</zorder>
+   <zorder>mainbattery_label</zorder>
+   <zorder>mainbatteryvoltage_label</zorder>
+   <zorder>secondbattery_label</zorder>
+   <zorder>secondbattery_icon</zorder>
+   <zorder>motortemp_label</zorder>
+   <zorder>controller_label</zorder>
+   <zorder>status_icon</zorder>
+   <zorder>status_label</zorder>
+   <zorder>tachometer_label</zorder>
+   <zorder>label_19</zorder>
+   <zorder>dash_label</zorder>
+   <zorder>mainbatterytemp_label</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_11</zorder>
+   <zorder>secondbatterytemp_label</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="enabled">
@@ -461,7 +605,7 @@ QLabel:hover{
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
